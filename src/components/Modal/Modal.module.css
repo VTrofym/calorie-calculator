@@ -1,0 +1,148 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1200;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: #ffffff;
+  box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.1);
+  position: relative;
+
+  font-family: 'Arimo', sans-serif;
+}
+
+.btnCloseModal {
+  display: block;
+    position: absolute;
+    right: 13px;
+    top: 20px;
+    border: 0;
+    background-color: #ffffff;
+}
+
+.containerTitleModal {
+  width: 320px;
+}
+
+.titleModal {
+  margin: 0 auto;
+  text-align: left;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.44;
+  color: #212121;
+  padding: 70px 37px 40px;
+}
+
+.textKcalModal {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 3.63;
+  letter-spacing: 0.04em;
+  padding-bottom: 32px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #264061;
+}
+
+.modalSpanKcal {
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.listModal {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.22;
+  letter-spacing: 0.04em;
+  padding-top: 12px;
+  padding-bottom: 20px;
+
+  color: #212121;
+}
+
+.itemModal {
+  font-size: 14px;
+  line-height: 1.22;
+  letter-spacing: 0.04em;
+  padding-bottom: 6px;
+
+  color: #9b9faa;
+}
+
+.btnStartLosingWeight {
+  margin: 40px auto 0;
+  display: inline-block;
+  background: #fc842d;
+  color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(252, 132, 45, 0.5);
+  border-radius: 30px;
+  border: #fc842d;
+  padding: 13px 25px;
+}
+
+.btnStartLosingWeight:focus,
+.btnStartLosingWeight:hover {
+  color: #fc842d;
+  background: #ffffff;
+}
+.border {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+
+@media screen and (min-width: 768px){
+
+  .btnCloseModal {
+    right: 20px;
+    top: 20px;
+  }
+  
+  .btnCloseModal:hover,
+  .btnCloseModal:focus {
+    transform: scale(1.1);
+  }
+
+  .modal {
+    width: 672px;
+    height: 573px;
+    padding: 64px 92px 81px;
+}
+
+.containerTitleModal {
+  width: 350px;
+}
+
+.titleModal {
+  text-align: center;
+  padding: 0;
+  font-size: 26px;
+  line-height: 1.23;
+}
+.textKcalModal {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.border {
+  margin-left: 0;
+  margin-right: 0;
+}
+}

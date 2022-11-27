@@ -1,0 +1,84 @@
+.sidebar {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .sidebar {
+    display: block;
+    width: 288px;
+  }
+}
+
+.titleBar {
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+
+  margin-bottom: 40px;
+}
+
+.containerKcal {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 60px;
+}
+
+.textPosition {
+  display: flex;
+  justify-content: space-between;
+
+  font-family: 'Arimo', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+
+  color: #9b9faa;
+}
+
+.textPosition.item {
+  margin-bottom: 15px;
+}
+.productItem {
+  display: inline;
+  font-family: 'Arimo', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  margin-bottom: 10px;
+
+  color: #9b9faa;
+}
+.productItem:not(:last-child)::after {
+  content: ', ';
+}
+@media screen and (min-width: 767px) and (max-width: 1279px) {
+  .notRecomendet {
+    width: 50%;
+  }
+  .data {
+    width: 280px;
+    margin-right: 79px;
+  }
+}
+
+.yourDiet {
+  font-family: 'Arimo', sans-serif;
+  line-height: 1.2;
+  color: #9b9faa;
+  font-weight: 400;
+  font-size: 14px;
+}

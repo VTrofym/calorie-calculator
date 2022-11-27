@@ -1,0 +1,14 @@
+.logoImage {
+  width: 46px;
+}
+@media screen and (min-width: 768px) {
+  .logoImage {
+    width: 162px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .logoImage {
+    width: 167px;
+    margin-right: 40px;
+  }
+}

@@ -1,0 +1,18 @@
+.wrapper {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/images/green-home.png');
+  background-size: 666px;
+  background-position: top left;
+}
+.sorry {
+  width: 500px;
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #c9a814;
+}

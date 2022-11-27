@@ -1,0 +1,40 @@
+.navLink {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #9b9faa;
+  transition: color 300ms linear;
+}
+.navLink:hover,
+.navLink:focus {
+  color: #212121;
+}
+.siteNav {
+  display: flex;
+  gap: 16px;
+}
+.siteNav::before {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1280px) {
+  .siteNav {
+    position: relative;
+  }
+  .siteNav::before {
+    transform: translateY(-25%);
+    position: absolute;
+    content: '';
+    display: block;
+    width: 2px;
+    height: 32px;
+    left: -20px;
+    background-color: #9b9faa;
+  }
+}

@@ -1,0 +1,181 @@
+@media screen and (max-width: 767px) {
+  .maxBox {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px 0 20px;
+    top: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .flexBox {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    top: 80px;
+    left: 0;
+    position: fixed;
+    z-index: 100;
+  }
+}
+@media screen and (max-width: 767px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    position: relative;
+  }
+}
+@media screen and (max-width: 767px) {
+  .fixesBox {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+}
+.disBt {
+  background-color: rgba(172, 170, 168, 0.5);
+  color: #fff;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  font-size: 32px;
+  border: none;
+  margin-left: 60px !important;
+  cursor: pointer;
+}
+.bt {
+  background-color: #fc842d;
+  color: #fff;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  font-size: 32px;
+  border: none;
+  margin-left: 60px !important;
+  box-shadow: 0px 4px 10px rgba(252, 132, 45, 0.5);
+  cursor: pointer;
+}
+.bt:hover {
+  background-color: #fff;
+  color: #fc842d;
+}
+.bt:hover path {
+  fill: #fc842d;
+}
+.inGrams.myInGrams {
+  width: 107px;
+  margin-left: 48px;
+  border: none;
+  border-bottom: 1px #e0e0e0 solid;
+}
+@media screen and (max-width: 767px) {
+  .inGrams.myInGrams {
+    width: 100vh;
+  }
+}
+
+.addForm {
+  margin-bottom: 60px;
+}
+.inName.input#in {
+  width: 40px;
+  border: none;
+  border-bottom: 1px #e0e0e0 solid;
+}
+
+.menu {
+  display: flex;
+
+  flex-direction: column;
+  position: absolute;
+  max-width: 280px;
+  max-height: 360px;
+  border: 1px gray solid;
+  border-radius: 4px;
+
+  overflow: scroll;
+}
+@media screen and (max-width: 767px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    max-width: 280px;
+    max-height: 160px;
+    border: 1px gray solid;
+    border-radius: 4px;
+    overflow: scroll;
+    top: 71px;
+    z-index: 2;
+  }
+}
+@media screen and (max-width: 767px) {
+  .menu {
+    bottom: -74px;
+  }
+}
+.btn.buttonAdd {
+  padding: 13px 50px;
+  background-color: #fc842d;
+  color: #ffffff;
+  width: 181px;
+  height: 44px;
+
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btnContainer.container {
+  width: 100%;
+  margin-top: 60px;
+  text-align: center;
+}
+.exit {
+  position: absolute;
+
+  position: absolute;
+  top: 15px;
+  right: 55px;
+  border-radius: 50%;
+  cursor: pointer;
+  vertical-align: middle;
+  display: flex;
+  padding: 4px;
+  background: #ffffff;
+  border: none;
+}
+@media screen and (max-width: 767px) {
+  body.maxBox {
+    overflow-y: hidden;
+    height: 100%;
+  }
+}
+.buttonProducts {
+  background: #ffffff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 0.5px solid black;
+  transition: all 300ms linear;
+}
+.buttonProducts:hover,
+.buttonProducts:focus {
+  background: #f0f1f3;
+}

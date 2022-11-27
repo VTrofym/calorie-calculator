@@ -1,0 +1,60 @@
+.title {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #212121;
+}
+.backGround {
+  padding-top: 32px;
+  padding-bottom: 111px;
+}
+
+@media screen and (min-width: 768px) {
+  .backGround {
+    padding-top: 100px;
+    margin-right: -32px;
+    padding-bottom: 512px;
+    background-image: url('../../assets/images/grasstablet.png'),
+      url('../../assets/images/strawberry.png'),
+      url('../../assets/images/banana.png'),
+      url('../../assets/images/grey-bg.svg');
+    background-size: 531px, 208px, 498px, 602px;
+    background-position: bottom 130px right 205px, right 120px bottom 284px,
+      bottom -55px right 2px, top 290px right -40px;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  }
+  .title {
+    font-size: 34px;
+    line-height: 41px;
+    width: 540px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .backGround {
+    padding-top: 293px;
+    margin-right: -32px;
+    padding-bottom: 111px;
+    background-image: url('../../assets/images/green-home.png'),
+      url('../../assets/images/strawberry.png'),
+      url('../../assets/images/banana.png'),
+      url('../../assets/images/grey-bg.svg');
+    background-size: 746px, 286px, 498px, 602px;
+    background-position: top right 195px, right 36px bottom, top right,
+      bottom right;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .backGround {
+    min-height: 100vh;
+  }
+}
+/* min-height: 100vh;
+padding-top: 306px;
+padding-bottom: 190px;
+margin-right: -35px;
+background-size: 746px, 286px, 498px, 602px;
+background-position: top right 195px, right 36px bottom, top right, bottom right;
+background-repeat: no-repeat, no-repeat, no-repeat, no-repeat; */
